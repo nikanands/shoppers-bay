@@ -1,0 +1,26 @@
+/***************BASE STYLE********************/
+@import "./base/reset";
+@import "./base/typography";
+
+/***************LAYOUT STYLE******************/
+@import "./layout/layout";
+@import "./layout/header";
+
+/***************COMPONENT STYLE***************/
+@import "./components/navigation";
+@import "./components/categoryItem";
+@import "./components/collections";
+@import "./components/collection-item";
+@import "./components/login";
+@import "./components/signup";
+@import "./components/signinsignup";
+@import "./components/cartIcon";
+@import "./components/cartDropdown";
+@import "./components/cartItem";
+@import "./components/checkout";
+@import "./components/checkoutItem";
+@import "./components/category";
+
+/***************UTILS STYLE*******************/
+@import "./utils/forminput";
+@import "./utils/button";

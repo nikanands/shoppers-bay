@@ -1,0 +1,11 @@
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  width: 60vw;
+
+  &-item {
+    font-size: 1.6rem;
+    margin-inline-start: 3rem;
+  }
+}

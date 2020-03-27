@@ -1,0 +1,25 @@
+.login {
+  &__wrapper {
+    width: 45%;
+    margin-block-start: 6rem;
+    margin-block-end: 6rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    margin-block-end: 3rem;
+    font-weight: normal;
+  }
+
+  &__btn_wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 1130px) {
+      display: flex;
+      flex-wrap: wrap;
+      height: 10rem;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.signup {
+  &__wrapper {
+    width: 45%;
+    margin-block-start: 6rem;
+    margin-block-end: 6rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    margin-block-end: 3rem;
+    font-weight: normal;
+  }
+}

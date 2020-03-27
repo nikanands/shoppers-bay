@@ -1,0 +1,42 @@
+.checkoutItem {
+  &__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    padding: 15px 0;
+    border-bottom: 1px solid darkslategrey;
+  }
+
+  &__img {
+    width: 23%;
+    padding-right: 15px;
+  }
+
+  &__name,
+  &__price,
+  &__quantity {
+    width: 23%;
+    font-size: 16px;
+    margin: auto 0;
+  }
+
+  &__quantity {
+    display: flex;
+  }
+
+  &__quantity-arrow {
+    cursor: pointer;
+  }
+
+  &__quantity-value {
+    margin: 0 10px;
+  }
+
+  &__remove {
+    width: 9%;
+    cursor: pointer;
+    font-size: 18px;
+  }
+}
